@@ -19,18 +19,22 @@
 .frente {
   margin-top: 50px;
   height: 612px;
-  background-color: grey;
+  background-color: rgb(12, 27, 61);
   width: auto;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(200px, auto);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  color: white;
+  border-radius: 20px;
+  padding-left: 50px;
 }
 
 .catalogo {
   margin-top: 50px;
   height: 612px;
-  background-color:white;
+  background-color: white;
   width: auto;
   display: grid;
   justify-content: center;
@@ -39,8 +43,9 @@
   grid-gap: 30px;
 }
 .imgFirst {
-  width: 650px;
+  width: auto;
   height: 612px;
+  border-radius: 0px 20px 20px 0px;
 }
 .caja1 {
   text-align: center;
@@ -71,26 +76,18 @@
   height: 170px;
   border-radius: 20px;
 }
-.btn-contactenos {
-  background-color: coral;
-  text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: grey;
-  padding: 20px;
-  border-radius: 50px;
-  margin: 50px;
-}
 
 .img-ayudanos {
-  width: 600px;
+  width: auto;
   height: 600px;
+  border-radius: 20px;
 }
 
 footer {
   margin-top: 50px;
   padding-top: 70px;
   height: 300px;
-  background-color: rgba(253, 127, 127, 0.555);
+  background-color: white;
   width: auto;
   display: grid;
   justify-content: center;
@@ -106,8 +103,12 @@ footer {
 .img-logo {
   height: 30px;
   width: 30px;
+  border-radius: 30px;
 }
 
+.decoration {
+  text-decoration: none;
+}
 .a-footer {
   text-decoration: none;
   color: black;
@@ -120,4 +121,71 @@ footer {
 .container2 {
   margin-left: 50px !important;
   margin-right: 50px !important;
+}
+
+.a-container {
+  text-decoration: none;
+  color: white;
+  margin: ›50px;
+  padding: 30px !important;
+  background-color: rgb(0, 180, 171);
+  border-radius: 20px;
+  box-shadow: 0 -10px 30px rgb(0 0 0 / 0.2);
+  font-size: 25px;
+}
+
+.a-container:hover {
+  color: rgb(12, 27, 61);
+}
+
+.input-txt-email {
+  height: 50px;
+  width: 380px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.btn-email {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-email:hover {
+  background-color: rgb(0, 180, 171);
+  color: rgb(12, 27, 61);
+  box-shadow: 0 30px 30px rgb(0 0 0 / 0.2);
+}
+
+.terminos {
+  text-decoration: none;
+  background-color: white;
+  padding: 30px 30px 30px 30px;
+  color: grey;
+  border-radius: 15px;
+}
+
+.terminos:hover {
+  color: rgb(0, 180, 171);
+}
+
+.img-tamano {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+}
+
+.crossfitLogo {
+  width: 120px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.te-ayudamos{
+  margin-top: 100px;
+}
+.imgPadding{
+  padding: 40px;
 }
