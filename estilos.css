@@ -213,6 +213,10 @@ footer {
   .a-container-texto-responsive {
     content: attr(data-tablettext);
   }
+  .span-container-texto-responsive:before{
+    content: attr(data-tablettext);
+    font-size: 100px;
+  }
   .imgFirst{
     display: none;
   }
@@ -227,6 +231,10 @@ footer {
   .a-container-texto-responsive {
     content: attr(data-tablettext);
   }
+  .span-container-texto-responsive:before{
+    content: attr(data-tablettext);
+    font-size: 100px;
+  }
   .imgFirst{
     display: none;
   }
@@ -238,6 +246,10 @@ footer {
 @media only screen and (min-width: 768px) {
   .a-container-texto-responsive::before {
     content: attr(data-tablettext);
+  }
+  .span-container-texto-responsive:before{
+    content: attr(data-tablettext);
+    font-size: 100px;
   }
   .imgFirst{
     display: none;
@@ -251,6 +263,10 @@ footer {
   .a-container-texto-responsive::before {
     content: attr(data-tablettext);
   }
+  .span-container-texto-responsive:before{
+    content: attr(data-tablettext);
+    font-size: 25px;
+  }
   .imgFirst{
     display: none;
   }
@@ -262,6 +278,10 @@ footer {
 @media only screen and (min-width: 1320px) {
   .a-container-texto-responsive::before {
     content: attr(data-desktoptext);
+  }
+  .span-container-texto-responsive::before{
+    content: attr(data-desktoptext);
+    font-size: 20px;
   }
   .imgFirst{
     display: block;
